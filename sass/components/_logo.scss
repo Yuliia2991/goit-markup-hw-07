@@ -1,4 +1,4 @@
-.navigation > .logo {
+.navigation__logo {
   margin-right: 93px;
 }
 .logo {
@@ -8,9 +8,9 @@
   line-height: 1.19;
   color: var(--main-accent-color);
 }
-.logo-header {
+.logo--dark {
   color: var(--black-color);
 }
-.logo-footer {
+.logo--light {
   color: var(--second-accent-color);
 }
