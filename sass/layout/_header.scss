@@ -6,6 +6,9 @@
 .navigation__list {
   @include centeredFlex();
 }
+.navigation__logo {
+  margin-right: 93px;
+}
 .navigation__item:not(:last-child) {
   margin-right: 50px;
 }

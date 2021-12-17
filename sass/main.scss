@@ -1,10 +1,13 @@
-@import './utils/variables';
+//Utils
+@import './utils/variables.cscc';
 @import './utils/hidden';
 @import './utils/mixins';
 
+// Base
 @import './base/reset';
 @import './base/common';
 
+// Components
 @import './components/container';
 @import './components/section-title';
 @import './components/button';
@@ -12,6 +15,7 @@
 @import './components/modal';
 @import './components/logo';
 
+// Layouts
 @import './layout/header';
 @import './layout/hero';
 @import './layout/advantage-section';
@@ -19,5 +23,4 @@
 @import './layout/team-section';
 @import './layout/clients-section';
 @import './layout/footer';
-
 @import './layout/portfolio';
