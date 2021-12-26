@@ -1,11 +1,7 @@
-.team {
-  @include sectionPaddings();
+.section--grey-bg {
   background-color: var(--third-background-color);
 }
-.team__title {
-  margin-bottom: 50px;
-}
-.team__list {
+.team {
   @include centeredFlex();
 }
 .team__item {
@@ -23,7 +19,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.team__person {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;

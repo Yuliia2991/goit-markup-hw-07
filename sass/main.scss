@@ -1,5 +1,5 @@
 //Utils
-@import './utils/variables.cscc';
+@import './utils/variables';
 @import './utils/hidden';
 @import './utils/mixins';
 
@@ -9,7 +9,7 @@
 
 // Components
 @import './components/container';
-@import './components/section-title';
+@import './components/section';
 @import './components/button';
 @import './components/socials';
 @import './components/modal';

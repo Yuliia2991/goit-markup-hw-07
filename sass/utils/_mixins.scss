@@ -3,7 +3,3 @@
   justify-content: $j-c;
   align-items: $a-i;
 }
-@mixin sectionPaddings($p-bottom: 94px) {
-  padding-top: 94px;
-  padding-bottom: $p-bottom;
-}

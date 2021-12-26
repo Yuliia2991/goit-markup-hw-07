@@ -1,7 +1,7 @@
-.advantages {
-  @include sectionPaddings($p-bottom: 0);
+.section--no-padding-bottom {
+  padding-bottom: 0;
 }
-.advantages__list {
+.advantages {
   @include centeredFlex();
 }
 .advantages__item {

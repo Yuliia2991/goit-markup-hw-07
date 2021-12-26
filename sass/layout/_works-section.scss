@@ -1,10 +1,4 @@
 .works {
-  @include sectionPaddings();
-}
-.works__title {
-  margin-bottom: 50px;
-}
-.works__list {
   @include centeredFlex();
 }
 .works__item {

@@ -1,14 +1,11 @@
-.portfolio {
-  @include sectionPaddings();
-}
-.portfolio__filters {
+.filters {
   @include centeredFlex();
   margin-bottom: 50px;
 }
-.portfolio__item:not(:last-child) {
+.filters__item:not(:last-child) {
   margin-right: 8px;
 }
-.portfolio__button {
+.filters__button {
   min-width: 73px;
   padding: 6px 22px;
   border-radius: 4px;
